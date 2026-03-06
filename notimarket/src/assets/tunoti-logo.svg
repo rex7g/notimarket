@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" fill="none">
+  <!-- Speech bubble (navy) -->
+  <rect x="4" y="4" width="68" height="52" rx="12" fill="#1b3a6b"/>
+  <!-- Bubble tail -->
+  <polygon points="10,54 4,68 22,54" fill="#1b3a6b"/>
+
+  <!-- Wifi / signal bars (cyan, top-right of bubble) -->
+ 
+
+  <!-- Orange checkmark inside bubble -->
+  <polyline points="16,32 26,42 48,18" stroke="#f97316" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Cyan inbox/tray icon (front overlap, bottom-right) -->
+  <g transform="translate(52,38)">
+    <!-- Tray body -->
+    <rect x="0" y="0" width="28" height="20" rx="4" fill="#26c6da"/>
+    <!-- Inner slot -->
+    <!-- Checkmark on tray -->
+    <polyline points="7,10 12,15 21,5" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Text: TuNoti -->
+  <text x="90" y="36" font-family="'Segoe UI', system-ui, sans-serif" font-weight="800" font-size="28">
+    <tspan fill="#1b3a6b">Tu</tspan><tspan fill="#f97316">Noti</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="91" y="52" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" fill="#8899aa" font-weight="400" letter-spacing="0.3">
+    Opinión &amp; Noticias
+  </text>
+</svg>

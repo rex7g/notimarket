@@ -1,7 +1,7 @@
 // pollStore.ts – Global state with Zustand
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import { Poll, BotConfig, PollOption } from "../types";
+import type { Poll, BotConfig, PollOption } from "../types";
 
 interface PollStore {
     polls: Poll[];
@@ -23,6 +23,7 @@ const DEFAULT_BOT_CONFIG: BotConfig = {
     topic: "politica",
     llmApiKey: "",
     llmProvider: "mock",
+    openrouterModel: "openai/gpt-4o-mini",
     assetId: undefined,
 };
 

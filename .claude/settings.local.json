@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(npx vite build)",
+      "Bash(\"c:/Users/Renato/Desktop/ProyectosLocales/Plataforma/Noticias/notimarket/src/index.css\":*)",
+      "Bash(supabase --version:*)",
+      "Bash(npx supabase:*)",
+      "Bash(supabase.cmd --version:*)",
+      "Bash(node -e:*)"
+    ]
+  }
+}
